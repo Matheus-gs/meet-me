@@ -10,8 +10,7 @@
 @media (max-width: 600px) {
   /* Background */
   #pageOne {
-    background-image: url(../images/neonMetroStation.jpg);
-    filter: grayscale();
+    background-color: black;
     height: 812px;
   }
   #bgPageOne {
@@ -114,8 +113,7 @@
 @media (min-width: 600px) and (max-width: 815px) {
   /* Background */
   #pageOne {
-    background-image: url(../images/neonMetroStation.jpg);
-    filter: grayscale();
+    background-color: black;
     height: 1024px;
   }
   #bgPageOne {
@@ -218,8 +216,7 @@
 @media (min-width: 820px) and (max-width: 1030px) {
   /* Background */
   #pageOne {
-    background-image: url(../images/neonMetroStation.jpg);
-    filter: grayscale();
+    background-color: black;
     height: 1366px;
   }
   #bgPageOne {
@@ -322,8 +319,7 @@
 @media (min-width: 1080px) and (max-width: 1370px) {
   /* Background */
   #pageOne {
-    background-image: url(../images/neonMetroStation.jpg);
-    filter: grayscale();
+    background-color: black;
     height: 1024px;
   }
   #bgPageOne {
@@ -426,8 +422,7 @@
 @media (min-width: 1366px) {
   /* Background */
   #pageOne {
-    background-image: url(../images/neonMetroStation.jpg);
-    filter: grayscale();
+    background-color: black;
     height: 700px;
   }
   #bgPageOne {
