@@ -10,11 +10,11 @@
 @media (max-width: 600px) {
   /* Background */
   #pageOne {
-    background-color: black;
+    background-image: url(../images/neonMetroStation.jpg);
     height: 812px;
   }
   #bgPageOne {
-    background-color: rgba(0, 0, 0, 0.725);
+    background-color: rgba(0, 0, 0, 0.9);
     height: 812px;
   }
   #profile,
@@ -73,18 +73,18 @@
   .links button {
     font-weight: 100;
     border-radius: 8px;
-    color: #ffc107;
-    border-color: #ffc107;
+    color: #f54242;
+    border-color: #f54242;
   }
   .links button:active {
     background-color: rgb(10, 10, 10, 0.725);
-    color: #ffc107;
-    border-color: #ffc107;
+    color: #f54242;
+    border-color: #f54242;
   }
   .links button:hover {
     background-color: rgb(10, 10, 10, 0.725);
-    color: #ffc107;
-    border-color: #ffc107;
+    color: #f54242;
+    border-color: #f54242;
   }
   .btnLinks {
     width: 250px;
@@ -113,11 +113,11 @@
 @media (min-width: 600px) and (max-width: 815px) {
   /* Background */
   #pageOne {
-    background-color: black;
+    background-image: url(../images/neonMetroStation.jpg);
     height: 1024px;
   }
   #bgPageOne {
-    background-color: rgba(0, 0, 0, 0.725);
+    background-color: rgba(0, 0, 0, 0.9);
     height: 1024px;
   }
   /* Profile */
@@ -175,19 +175,19 @@
   }
   .links button {
     font-weight: 100;
-    color: #ffc107;
-    border-color: #ffc107;
+    color: #f54242;
+    border-color: #f54242;
     border-radius: 8px;
   }
   .links button:active {
     background-color: rgb(10, 10, 10, 0.725);
-    color: #ffc107;
-    border-color: #ffc107;
+    color: #f54242;
+    border-color: #f54242;
   }
   .links button:hover {
     background-color: rgb(10, 10, 10, 0.725);
-    color: #ffc107;
-    border-color: #ffc107;
+    color: #f54242;
+    border-color: #f54242;
   }
   .btnLinks {
     width: 350px;
@@ -216,11 +216,11 @@
 @media (min-width: 820px) and (max-width: 1030px) {
   /* Background */
   #pageOne {
-    background-color: black;
+    background-image: url(../images/neonMetroStation.jpg);
     height: 1366px;
   }
   #bgPageOne {
-    background-color: rgba(0, 0, 0, 0.725);
+    background-color: rgba(0, 0, 0, 0.9);
     height: 1366px;
   }
   /* Profile */
@@ -278,19 +278,19 @@
   }
   .links button {
     font-weight: 100;
-    color: #ffc107;
-    border-color: #ffc107;
+    color: #f54242;
+    border-color: #f54242;
     border-radius: 8px;
   }
   .links button:active {
     background-color: rgb(10, 10, 10, 0.725);
-    color: #ffc107;
-    border-color: #ffc107;
+    color: #f54242;
+    border-color: #f54242;
   }
   .links button:hover {
     background-color: rgb(10, 10, 10, 0.725);
-    color: #ffc107;
-    border-color: #ffc107;
+    color: #f54242;
+    border-color: #f54242;
   }
   .btnLinks {
     width: 450px;
@@ -319,11 +319,11 @@
 @media (min-width: 1080px) and (max-width: 1370px) {
   /* Background */
   #pageOne {
-    background-color: black;
+    background-image: url(../images/neonMetroStation.jpg);
     height: 1024px;
   }
   #bgPageOne {
-    background-color: rgba(0, 0, 0, 0.725);
+    background-color: rgba(0, 0, 0, 0.9);
     height: 1024px;
   }
   /* Profile */
@@ -381,19 +381,19 @@
   }
   .links button {
     font-weight: 100;
-    color: #ffc107;
-    border-color: #ffc107;
+    color: #f54242;
+    border-color: #f54242;
     border-radius: 8px;
   }
   .links button:active {
     background-color: rgb(10, 10, 10, 0.725);
-    color: #ffc107;
-    border-color: #ffc107;
+    color: #f54242;
+    border-color: #f54242;
   }
   .links button:hover {
     background-color: rgb(10, 10, 10, 0.725);
-    color: #ffc107;
-    border-color: #ffc107;
+    color: #f54242;
+    border-color: #f54242;
   }
   .btnLinks {
     width: 450px;
@@ -422,11 +422,11 @@
 @media (min-width: 1366px) {
   /* Background */
   #pageOne {
-    background-color: black;
+    background-image: url(../images/neonMetroStation.jpg);
     height: 700px;
   }
   #bgPageOne {
-    background-color: rgba(0, 0, 0, 0.725);
+    background-color: rgba(0, 0, 0, 0.9);
     height: 700px;
   }
   /* Profile */
@@ -483,19 +483,19 @@
   }
   .links button {
     font-weight: 100;
-    color: #ffc107;
-    border-color: #ffc107;
+    color: #f54242;
+    border-color: #f54242;
     border-radius: 8px;
   }
   .links button:active {
     background-color: rgb(10, 10, 10, 0.725);
-    color: #ffc107;
-    border-color: #ffc107;
+    color: #f54242;
+    border-color: #f54242;
   }
   .links button:hover {
     background-color: rgb(10, 10, 10, 0.725);
-    color: #ffc107;
-    border-color: #ffc107;
+    color: #f54242;
+    border-color: #f54242;
   }
   .btnLinks {
     width: 300px;
