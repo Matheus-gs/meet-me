@@ -64,7 +64,7 @@ header #profile p {
   width: 350px;
   height: 60px;
   border-radius: 8px;
-  margin: 60px 0;
+  margin: 30px 0 100px 0;
   padding: 0;
   background: white;
   display: flex;
@@ -84,7 +84,7 @@ header #profile p {
 #Menu ul li svg {
   width: 22px;
   height: 22px;
-  color: #d1d1d3;
+  color: #808080;
   -webkit-transition: all 500ms;
 }
 #Menu ul li svg:hover {
@@ -111,7 +111,7 @@ footer p {
     width: 300px;
     height: 60px;
     border-radius: 8px;
-    margin: 80px 0;
+    margin: 30px 0 100px 0;
     padding: 0;
     background: white;
     display: flex;
