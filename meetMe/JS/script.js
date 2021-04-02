@@ -1,7 +1,7 @@
 // Icons //
 feather.replace();
-// Icons //
 
+// futureUpdates
 function comingSoon(){
     alert('Em breve! Aguarde Atualizações.')
 }

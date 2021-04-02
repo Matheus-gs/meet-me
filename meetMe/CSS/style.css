@@ -1,125 +1,87 @@
-/* ExternalStyles */
+/*  */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100&display=swap");
-/* ExternalStyles */
+
+/*  */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
-  list-style: none;
-}
-a {
+  margin: 0; padding: 0; box-sizing: border-box;
+  font-family: "Montserrat", sans-serif; list-style: none;
   text-decoration: none;
-  color: #fff;
 }
-::-webkit-scrollbar-track {
-  background-color: none;
-}
-::-webkit-scrollbar {
-  width: 0;
-  background: none;
-}
-::-webkit-scrollbar-thumb {
-  background: none;
+::-webkit-scrollbar { 
+  width: 0; background: none;
 }
 /*  */
 header {
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: #17191a;
+  width: 100vw; height: 100vh;
+  display: flex; flex-direction: column; align-items: center;
+  position: relative; background: #17191a;
 }
-header #profile {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+
+#app{
+  width: 100vw;
+  position: absolute; top: 12vh;
+  display: flex; flex-direction: column; align-items: center;
 }
-header #profile #profileImage {
-  background: no-repeat center/cover url("../images/profile_img.png");
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  border: 2px solid #fdca40;
-  margin-bottom: 20px;
+
+#app__profile {
+  display: flex; flex-direction: column; align-items: center;
 }
-header #profile h1 {
-  font-family: "Roboto", sans-serif;
-  font-size: 35px;
-  font-weight: 300;
-  color: #fff;
+
+#app__profile--image{
+  width: 200px; height: 200px; border: 2px solid #ffc107; border-radius: 50%;
+  margin: 15px 0; position: relative;
 }
-header #profile p {
-  font-size: 20px;
-  font-weight: 300;
-  color: #ef2d56;
+
+#app__profile--image img{
+  width: 100%; height: 100%; border-radius: 50%;
+  position: absolute; object-fit: cover;
 }
-#Menu {
-  width: 350px;
-  height: 60px;
-  border-radius: 8px;
-  margin: 30px 0 100px 0;
-  padding: 0;
+
+#app__profile h1 {
+  font-family: "Roboto", sans-serif; font-size: 35px; font-weight: 200; color: #fff;
+}
+
+#app__profile p {
+  font-size: 20px; font-weight: 300; color: #ef2d56;
+}
+
+#app__menu {
+  width: 350px; height: 60px; border-radius: 8px; margin: 20px 0 0 0;
+  display: flex; justify-content: space-evenly; align-items: center;
   background: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
-#Menu ul {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  list-style: none;
+
+#app__menu ul {
+  display: flex;  
 }
-#Menu ul li {
-  margin: 0 30px;
-  padding: 0;
+
+#app__menu ul li {
+  margin: 0 25px; 
 }
-#Menu ul li svg {
-  width: 22px;
-  height: 22px;
-  color: #808080;
-  -webkit-transition: all 500ms;
+
+#app__menu ul li svg {
+  width: 22px;  height: 22px;
+  -webkit-transition: all 500ms; color: #808080; 
 }
-#Menu ul li svg:hover {
+
+#app__menu ul li svg:hover {
+  transition: all 500ms; transform: rotate(720deg) scale(1.5);
   color: #ef2d56;
-  transition: all 500ms;
-  transform: rotate(720deg) scale(1.5);
 }
+
 footer {
-  width: 100%;
-  height: 8vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 100%; height: 8vh;
+  display: flex; justify-content: center; align-items: center;
   background: #17191a;
 }
+
 footer p {
-  font-size: 14px;
-  font-weight: 200;
-  font-style: italic;
-  color: #fff;
+  font-size: 14px; font-weight: 200; font-style: italic; color: #fff;
 }
+
 @media (max-width: 480px) {
-  #Menu {
+  #app__menu {
     width: 300px;
-    height: 60px;
-    border-radius: 8px;
-    margin: 30px 0 100px 0;
-    padding: 0;
-    background: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  #Menu ul li {
-    margin: 0 20px;
-    padding: 0;
   }
 }
